@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <!-- Circular dots and squares around the central 1 -->
+  <g fill="#0b4aa6">
+    <rect x="370" y="140" width="60" height="60" rx="4"/>
+    <rect x="460" y="95" width="60" height="60" rx="4"/>
+    <rect x="560" y="80" width="60" height="60" rx="4"/>
+
+    <rect x="700" y="360" width="48" height="48" rx="4"/>
+    <rect x="760" y="440" width="48" height="48" rx="4"/>
+    <rect x="820" y="520" width="48" height="48" rx="4"/>
+
+    <circle cx="320" cy="380" r="18"/>
+    <circle cx="860" cy="300" r="18"/>
+    <rect x="440" y="520" width="48" height="48" rx="4"/>
+  </g>
+
+  <!-- Large numeral 1 -->
+  <text x="50%" y="48%" text-anchor="middle" fill="#08397a" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="420">1</text>
+
+  <!-- Brand name -->
+  <text x="50%" y="75%" text-anchor="middle" fill="#0b4aa6" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="120" letter-spacing="14">INDISTRIVE</text>
+
+  <!-- Tagline -->
+  <text x="50%" y="88%" text-anchor="middle" fill="#0b4aa6" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="64" letter-spacing="18">STRIVERS MIND</text>
+</svg>
