@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Indistrive — Strivers Mind</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <img src="assets/logo.png" alt="Indistrive logo" class="logo">
+      </a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <h1>We build digital products that solve real problems</h1>
+            <p class="lead">Indistrive is a product and engineering studio focused on building scalable web and mobile experiences — strategy, design and engineering under one roof.</p>
+            <p class="hero-ctas">
+              <a href="#contact" class="btn primary">Get in touch</a>
+              <a href="#work" class="btn ghost">See our work</a>
+            </p>
+          </div>
+          <div class="hero-media">
+            <img src="assets/hero-placeholder.svg" alt="Product screenshot placeholder">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section bg-light">
+      <div class="container">
+        <h2>About Indistrive</h2>
+        <p>Indistrive helps startups and enterprises ship digital products faster. Our cross-functional teams include product managers, designers and engineers who bring ideas to life.</p>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="grid services-grid">
+          <div class="card">
+            <h3>Product Strategy</h3>
+            <p>Research, discovery and roadmap planning to validate ideas and prioritize high-impact work.</p>
+          </div>
+          <div class="card">
+            <h3>Design</h3>
+            <p>User experience, brand systems and visual design to build beautiful, usable products.</p>
+          </div>
+          <div class="card">
+            <h3>Engineering</h3>
+            <p>Front-end, back-end and mobile engineering using modern technologies and best practices.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section bg-light">
+      <div class="container">
+        <h2>Selected Work</h2>
+        <p>Placeholder for case studies and portfolio pieces. Replace with your projects and screenshots.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Want to work together? Send us a message.</p>
+        <form class="contact-form" action="#" method="POST">
+          <div class="form-grid">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" rows="6" placeholder="Tell us about your project" required></textarea>
+            <button type="submit" class="btn primary">Send message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Indistrive</strong>
+        <div class="muted">Strivers Mind</div>
+      </div>
+      <nav class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.querySelector('.menu-toggle').addEventListener('click', function(){
+      document.querySelector('.nav').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
